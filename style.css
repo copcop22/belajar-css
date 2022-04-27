@@ -1,0 +1,189 @@
+* {
+    margin: 0px 0px 0px;
+    /* outline: 2px dotted red; */
+
+}
+
+.main {
+    padding-top: 70px;
+
+    background: linear-gradient(90deg, rgba(16, 0, 255, 1) 0%, rgba(255, 0, 0, 1) 47%, rgba(232, 255, 0, 1) 100%);
+}
+
+.navbar {
+    overflow: hidden;
+    /* background-color: #333; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 50%);
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 5px 5px;
+}
+
+.navbar a:hover {
+    background: red;
+    color: black;
+}
+
+.header {
+    margin: 0px auto 20px;
+    width: 740px;
+    background-color: #ffffff;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 5px;
+
+    box-shadow: 2px 6px 26px 11px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 2px 6px 26px 11px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 2px 6px 26px 11px rgba(0, 0, 0, 0.54);
+}
+
+.header2 {
+
+    margin: 20px auto 20px;
+    width: 740px;
+    background-color: #ffffff;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 5px;
+
+    box-shadow: 2px 6px 26px 11px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 2px 6px 26px 11px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 2px 6px 26px 11px rgba(0, 0, 0, 0.54);
+
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 5px;
+    margin: 20px auto 20px;
+    width: 740px;
+}
+
+.grid-container>p {
+
+    background-color: #ffffff;
+    text-align: left;
+    padding: 10px 10px;
+    margin: 10px 20px;
+    border-radius: 5px;
+
+    box-shadow: 2px 6px 26px 11px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 2px 6px 26px 11px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 2px 6px 26px 11px rgba(0, 0, 0, 0.54);
+
+}
+
+.box {
+    margin: 20px auto 20px;
+    width: 665px;
+    padding: 20px 45px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 5px;
+
+    box-shadow: 2px 6px 26px 11px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 2px 6px 26px 11px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 2px 6px 26px 11px rgba(0, 0, 0, 0.54);
+
+    /* background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px; */
+
+
+    /* -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0); */
+}
+
+img {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 56%;
+    height: 50%;
+    display: block;
+    border-radius: 5px;
+
+    box-shadow: 2px 6px 26px 11px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 2px 6px 26px 11px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 2px 6px 26px 11px rgba(0, 0, 0, 0.54);
+}
+
+#rainbow {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 56%;
+    height: 300px;
+    display: block;
+    border-radius: 5px;
+
+    box-shadow: 2px 6px 26px 11px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 2px 6px 26px 11px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 2px 6px 26px 11px rgba(0, 0, 0, 0.54);
+}
+
+.footer {
+    overflow: hidden;
+    left: 0;
+    bottom: 0;
+
+    position: sticky;
+    padding: 10px 10px;
+    text-align: center;
+    color: #f2f2f2;
+
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 50%);
+
+}
+
+
+/* .footer a {
+    float: left;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 5px 5px;
+} */
+
+/* margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px; */
+
+/* .blog {
+
+    margin: auto;
+    width: 665px;
+    padding: 40px 40px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 5px;
+
+    box-shadow: 2px 6px 26px 11px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 2px 6px 26px 11px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 2px 6px 26px 11px rgba(0, 0, 0, 0.54);
+
+
+} */
